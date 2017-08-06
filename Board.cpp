@@ -186,7 +186,6 @@ int Board::evalPoint(int color, int x, int y) {
                 continue;
             retvalue += ceil[tempx][tempy].getDirecValue(dir - 4, color, dist);
         }
-        cout << endl;
     }
     return retvalue;
 }
